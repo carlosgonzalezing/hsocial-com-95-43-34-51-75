@@ -47,11 +47,11 @@ export default {
         'safe-right': 'env(safe-area-inset-right)',
       },
       colors: {
-        // Facebook Colors
+        // Social-Scool Colors
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--facebook-blue))", // #1877F2
+          DEFAULT: "hsl(var(--social-purple))", // #B347D9
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -59,32 +59,17 @@ export default {
           foreground: "hsl(var(--secondary-foreground))",
         },
         
-        // Facebook specific colors
-        facebook: {
-          blue: "hsl(var(--facebook-blue))", // #1877F2
-          green: "hsl(var(--facebook-green))", // #42B883
-          red: "hsl(var(--facebook-red))", // #FF3040
-          gray: {
-            50: "#F0F2F5",
-            100: "#E4E6EA", 
-            200: "#DADDE1",
-            300: "#CCD0D5",
-            400: "#BEC3C9",
-            500: "#8A8D91",
-            600: "#65676B",
-            700: "#4B4F56",
-            800: "#365899",
-            900: "#1C1E21"
-          },
-          dark: {
-            100: "#E4E6EA",
-            200: "#B0B3B8", 
-            300: "#8A8D91",
-            400: "#65676B",
-            500: "#4E4F50",
-            600: "#3A3B3C",
-            700: "#242526",
-            800: "#18191A"
+        // Social-Scool specific colors
+        social: {
+          purple: "hsl(var(--social-purple))", // #B347D9
+          pink: "hsl(var(--social-pink))", // #D947B3
+          blue: "hsl(var(--social-blue))", // #4747D9
+          green: "hsl(var(--social-green))", // #00CC66
+          orange: "hsl(var(--social-orange))", // #FF9900
+          red: "hsl(var(--social-red))", // #FF3333
+          gradient: {
+            primary: "var(--gradient-primary)",
+            secondary: "var(--gradient-secondary)"
           }
         },
         

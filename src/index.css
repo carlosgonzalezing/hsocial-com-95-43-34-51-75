@@ -5,10 +5,10 @@
 
 @layer base {
   :root {
-    /* Facebook Color Palette */
-    --background: 0 0% 96%; /* Facebook light gray #F0F2F5 */
-    --foreground: 0 0% 19%; /* Facebook dark text #1C1E21 */
-    --primary: 221 44% 41%; /* Facebook blue #1877F2 */
+    /* Social-Scool Color Palette */
+    --background: 0 0% 98%; /* Light background #FAFAFA */
+    --foreground: 0 0% 15%; /* Dark text #262626 */
+    --primary: 280 100% 70%; /* Purple #B347D9 */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 0 0% 93%; /* Light gray #E4E6EA */
@@ -35,14 +35,19 @@
     
     --radius: 0.5rem; /* Facebook uses smaller radius */
     
-    /* Facebook specific colors */
-    --facebook-blue: 221 44% 41%; /* #1877F2 */
-    --facebook-green: 142 76% 36%; /* #42B883 */
-    --facebook-red: 0 100% 60%; /* #FF3040 */
-    --facebook-text-primary: 0 0% 19%; /* #1C1E21 */
-    --facebook-text-secondary: 0 0% 40%; /* #65676B */
-    --facebook-hover: 0 0% 96%; /* #F0F2F5 */
-    --facebook-active: 0 0% 93%; /* #E4E6EA */
+    /* Social-Scool specific colors */
+    --social-purple: 280 100% 70%; /* #B347D9 */
+    --social-pink: 320 100% 70%; /* #D947B3 */
+    --social-blue: 240 100% 70%; /* #4747D9 */
+    --social-green: 150 100% 40%; /* #00CC66 */
+    --social-orange: 30 100% 60%; /* #FF9900 */
+    --social-red: 0 100% 60%; /* #FF3333 */
+    --gradient-primary: linear-gradient(135deg, hsl(280, 100%, 70%), hsl(320, 100%, 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(240, 100%, 70%), hsl(280, 100%, 70%));
+    --text-primary: 0 0% 15%; /* #262626 */
+    --text-secondary: 0 0% 45%; /* #737373 */
+    --hover-bg: 0 0% 96%; /* #F5F5F5 */
+    --active-bg: 0 0% 93%; /* #EDEDED */
   }
 
   .dark {
